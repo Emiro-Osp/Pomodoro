@@ -40,7 +40,7 @@ function renderTasks(){
         `; 
         });
         const tasksContainer = document.querySelector('#task');
-        tasksContainer.innerHTML = html.join(' ');
+        tasksContainer.innerHTML = html.join('');
 
         const startButtons = document.querySelectorAll('.task .start-button');
         startButtons.forEach(button => {

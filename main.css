@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: rgb(142, 246, 246);
 }
 
 #app {
@@ -8,6 +8,7 @@ body {
     margin: 0 auto;
     border: solid 1px blue; 
     padding: 20px;
+    border-radius: 5px;
 }
 
 #time {
@@ -39,8 +40,6 @@ input [type ="submit"] {
     border-radius: 5px;
 }
 
- 
-
 #tasks {
     display: flex;
     flex-direction: column;
@@ -65,4 +64,16 @@ input [type ="submit"] {
     padding: 5px;
     background-color: #ccc;
     margin: 5px;
+}
+
+.Add {
+    border: none;
+    background-color: #003366;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.none {
+    border-radius: 5px;
 }
